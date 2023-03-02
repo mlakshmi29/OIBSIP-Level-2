@@ -1,0 +1,63 @@
+.box {
+  border: 5px solid #f3f3f3;
+  background-color: #d1e0e0;
+  border-radius: 15px;
+  width: 400px;
+  height: 500px;
+  margin: auto;
+  padding: 20px;
+}
+
+.box th {
+  font-size: 30px;
+  font-weight: bold;
+  background-color: #f2d2d2;
+  color: #2d2d2d;
+  border: 2px solid #f3f3f3;
+  border-radius: 10px;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.box td {
+  font-size: 30px;
+  font-weight: bold;
+  background-color: #e6f2ff;
+  color: #2d2d2d;
+  border: 2px solid #f3f3f3;
+  border-radius: 10px;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.box #answer {
+  font-size: 60px;
+  font-weight: bold;
+  background-color: #c2d6d6;
+  color: #2d2d2d;
+  border: 2px solid #f3f3f3;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.box td:hover,
+.box th:hover {
+  background-color: #f2d2d2;
+  color: #2d2d2d;
+}
+
+.box td:active,
+.box th:active {
+  background-color: #c2d6d6;
+  color: #2d2d2d;
+}
+
+.box td:nth-child(4):hover,
+.box td:nth-child(5):hover {
+  background-color: #f2a6a6;
+}
+
+.box td:nth-child(4):active,
+.box td:nth-child(5):active {
+  background-color: #cc0000;
+}
